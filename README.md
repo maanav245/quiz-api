@@ -17,7 +17,16 @@ Quiz Api with lessons and user authentication and user stats
 
 ### Login Details
 
-![Alt text](image.png)
+Username: maanav245
+Pass: maanav245
+
+Username: david245
+Pass: david245
+
+Username: gwen245
+Pass: gwen245
+![image](https://github.com/maanav245/quiz-api/assets/84433280/8bd9c23c-c624-46e0-b491-564e964c28fc)
+
 
 ### JSON Testing for Django Rest Validation
 
