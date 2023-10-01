@@ -20,19 +20,19 @@ class QuestionSerializer(serializers.Serializer):
     is_multiple = serializers.BooleanField(default=False, required=False)
 
 
+# Create lesson and dispaly serializer
+# Works by analyzing a JSON object and filling out the details.
 class LessonSerializer(serializers.Serializer):
     id = serializers.IntegerField(read_only=True)
     title = serializers.CharField(max_length=255, required=True)
     questions = QuestionSerializer(many=True, required=True)
 
     def create(self, validated_data):
-        # Extract and create lesson
         title = validated_data.get("title")
         questions_data = validated_data.get("questions")
 
         lesson = Lesson.objects.create(title=title)
 
-        # Create questions and choices
         for question_data in questions_data:
             question_text = question_data.get("text")
             choices_data = question_data.get("choices")

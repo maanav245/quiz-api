@@ -3,7 +3,7 @@
   "questions": [
     {
       "text": "What is the largest planet in our solar system?",
-      "answers": [
+      "choices": [
         {"text": "Earth", "is_correct": false},
         {"text": "Mars", "is_correct": false},
         {"text": "Jupiter", "is_correct": true}
@@ -11,7 +11,7 @@
     },
     {
       "text": "Which gas do plants absorb from the atmosphere during photosynthesis?",
-      "answers": [
+      "choices": [
         {"text": "Oxygen", "is_correct": false},
         {"text": "Carbon Dioxide", "is_correct": true},
         {"text": "Nitrogen", "is_correct": false}
@@ -19,7 +19,7 @@
     },
     {
       "text": "Who wrote the play 'Romeo and Juliet'?",
-      "answers": [
+      "choices": [
         {"text": "William Shakespeare", "is_correct": true},
         {"text": "Charles Dickens", "is_correct": false},
         {"text": "Jane Austen", "is_correct": false}

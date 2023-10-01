@@ -16,6 +16,8 @@ from .serializers import (
 )
 
 
+# Login view, uses alot of Django Rest API logic, simple token based authentication
+#
 class LoginAPIView(APIView):
     permission_classes = []
 

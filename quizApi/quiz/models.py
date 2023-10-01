@@ -4,6 +4,11 @@ from django.utils import timezone
 from django.db.models.signals import post_save, post_delete
 from django.dispatch import receiver
 
+###
+#   Models for all the data objects, straightforward
+#
+###
+
 
 class Lesson(models.Model):
     title = models.CharField(max_length=255)
@@ -36,15 +41,14 @@ class QuizResult(models.Model):
     score = models.FloatField()
 
 
+# Works after lesson has been loaded, and updates the is_multiple value for each lesson. Useful since it avoids
+# init errors
 @receiver([post_save, post_delete], sender=Choice)
 def update_is_multiple(sender, instance, **kwargs):
-    # Get the associated Question for the Choice
     question = instance.question
 
-    # Check if there are multiple choices with is_correct=True
     is_multiple = question.choices.filter(is_correct=True).count() > 1
 
-    # Update the is_multiple field of the Question
     if question.is_multiple != is_multiple:
         question.is_multiple = is_multiple
         question.save()

@@ -1,0 +1,55 @@
+{
+  "title": "Multi-Correct Choice Quiz",
+  "questions": [
+    {
+      "text": "Which of the following are prime numbers?",
+      "choices": [
+        {"text": "2", "is_correct": true},
+        {"text": "4", "is_correct": false},
+        {"text": "7", "is_correct": true},
+        {"text": "9", "is_correct": false},
+        {"text": "11", "is_correct": true}
+      ]
+    },
+    {
+      "text": "Select the even numbers:",
+      "choices": [
+        {"text": "3", "is_correct": false},
+        {"text": "6", "is_correct": true},
+        {"text": "13", "is_correct": false},
+        {"text": "8", "is_correct": true},
+        {"text": "1", "is_correct": false}
+      ]
+    },
+    {
+      "text": "Identify the primary colors in light:",
+      "choices": [
+        {"text": "Red", "is_correct": true},
+        {"text": "Yellow", "is_correct": true},
+        {"text": "Green", "is_correct": true},
+        {"text": "Blue", "is_correct": true},
+        {"text": "Purple", "is_correct": false}
+      ]
+    },
+    {
+      "text": "Choose the factors of 24:",
+      "choices": [
+        {"text": "5", "is_correct": false},
+        {"text": "8", "is_correct": false},
+        {"text": "12", "is_correct": true},
+        {"text": "3", "is_correct": false},
+        {"text": "6", "is_correct": true}
+      ]
+    },
+    {
+      "text": "Pick the continents of the Southern Hemisphere:",
+      "choices": [
+        {"text": "Asia", "is_correct": false},
+        {"text": "Africa", "is_correct": true},
+        {"text": "Europe", "is_correct": false},
+        {"text": "Australia", "is_correct": true},
+        {"text": "North America", "is_correct": false}
+      ]
+    }
+  ]
+}

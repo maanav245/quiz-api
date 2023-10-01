@@ -3,7 +3,7 @@
   "questions": [
     {
       "text": "What is 7 multiplied by 3?",
-      "answers": [
+      "choices": [
         {"text": "21", "is_correct": true},
         {"is_correct": false},
         {"text": "14", "is_correct": false}
@@ -11,7 +11,7 @@
     },
     {
       "text": "Who painted the Mona Lisa?",
-      "answers": [
+      "choices": [
         {"text": "Leonardo da Vinci", "is_correct": true},
         {"text": "Vincent van Gogh", "is_correct": false},
         {"is_correct": false}

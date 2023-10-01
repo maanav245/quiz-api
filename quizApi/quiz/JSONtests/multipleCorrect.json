@@ -1,0 +1,48 @@
+{
+  "title": "Sample Lesson with Multiple Correct Answers",
+  "questions": [
+    {
+      "text": "What is the capital of France?",
+      "choices": [
+        {"text": "Paris", "is_correct": true},
+        {"text": "London", "is_correct": false},
+        {"text": "Berlin", "is_correct": false}
+      ]
+    },
+    {
+      "text": "Which elements are noble gases?",
+      "choices": [
+        {"text": "Oxygen", "is_correct": false},
+        {"text": "Helium", "is_correct": true},
+        {"text": "Nitrogen", "is_correct": false},
+        {"text": "Neon", "is_correct": true}
+      ]
+    },
+    {
+      "text": "Who is known as the father of modern physics?",
+      "choices": [
+        {"text": "Isaac Newton", "is_correct": false},
+        {"text": "Albert Einstein", "is_correct": true},
+        {"text": "Galileo Galilei", "is_correct": false}
+      ]
+    },
+    {
+      "text": "What are the largest mammals on Earth?",
+      "choices": [
+        {"text": "African Elephants", "is_correct": false},
+        {"text": "Blue Whales", "is_correct": true},
+        {"text": "Giraffes", "is_correct": false},
+        {"text": "Humpback Whales", "is_correct": true}
+      ]
+    },
+    {
+      "text": "Which gases are responsible for the green color of plants during photosynthesis?",
+      "choices": [
+        {"text": "Oxygen", "is_correct": false},
+        {"text": "Carbon Dioxide", "is_correct": true},
+        {"text": "Hydrogen", "is_correct": false},
+        {"text": "Chlorophyll", "is_correct": true}
+      ]
+    }
+  ]
+}
