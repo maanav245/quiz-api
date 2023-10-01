@@ -144,17 +144,21 @@ This serializer is based on the `QuizResult` model and automatically generated f
 
 ## Getting Started
 
-Explain how to set up your project locally for development.
+cd quizApi
 
 ### Prerequisites
 
-List any software or dependencies that users need to have installed before they can run your project. Include links to where they can obtain these prerequisites.
+Check the requirements.txt file
 
 ### Installation
 
 Provide step-by-step instructions for installing and configuring your project locally.
 
-1. Clone the repository:
+1. cd quizApi
+2. Clone the repository:
    ```shell
-   git clone https://github.com/yourusername/your-project.git
+   git clone https://github.com/maanav245/quiz-api.git
    ```
+3. pip install -r requirements.txt
+4. python manage.py migrate && python manage.py migrate
+5. python manage.py runserver
