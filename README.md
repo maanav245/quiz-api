@@ -15,7 +15,15 @@ Quiz Api with lessons and user authentication and user stats
 
 ## Introduction
 
-Provide a brief introduction to your project. Explain its purpose, goals, and any relevant context. Mention any technologies or frameworks you have used.
+### Login Details
+
+![Alt text](image.png)
+
+### JSON Testing for Django Rest Validation
+
+Theres is a few JSON's in the quiz/JSONTests folder. I have also created an endpoint where users can upload lessons
+to see on the frontend
+[Views](##CreateLessonFromJSON)
 
 ## Models
 
